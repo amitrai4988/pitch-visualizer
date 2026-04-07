@@ -1,39 +1,36 @@
 # 🎬 Pitch Visualizer
 
-Convert a story into a visual storyboard using AI.
+Convert a story into a visual storyboard using AI 🚀
+
+This project takes a narrative text, breaks it into scenes, enhances each scene using an LLM, and generates corresponding images to create a visual storyboard.
+
+---
 
 ## 🚀 Features
-- Text → Scene segmentation
-- AI prompt enhancement
-- Image generation (DALL·E)
-- Visual storyboard output
 
-## 🛠️ Setup
+- ✂️ Text → Scene segmentation (NLTK)
+- 🧠 AI-powered prompt generation (Gemini API)
+- 🎨 Image generation using Stable Diffusion (HuggingFace API)
+- 🖼️ Dynamic storyboard visualization (Flask + HTML/CSS)
+- 🔄 Fallback handling for image failures
+- 🎭 User-selectable visual styles
 
-1. Clone repo:
-   git clone <your-repo-url>
-   cd pitch-visualizer
+---
 
-2. Install dependencies:
-   pip install -r requirements.txt
+## 🛠️ Tech Stack
 
-3. Add your OpenAI API key:
-   Replace in app.py:
-   client = OpenAI(api_key="YOUR_API_KEY")
+- **Backend:** Flask (Python)
+- **NLP:** NLTK
+- **LLM:** Google Gemini API
+- **Image Generation:** HuggingFace Stable Diffusion API
+- **Frontend:** HTML, CSS (Jinja2 Templates)
 
-4. Run app:
-   python app.py
+---
 
-5. Open browser:
-   http://127.0.0.1:5000/
+## 📦 Setup Instructions
 
-## 🧠 How it Works
-1. Splits story into sentences
-2. Enhances each sentence into visual prompts
-3. Generates images using AI
-4. Displays storyboard
+### 1️⃣ Clone the Repository
 
-## ✨ Future Improvements
-- Better scene detection (LLM)
-- Animation support
-- Character consistency
+```bash
+git clone <your-repo-url>
+cd pitch-visualizer
