@@ -10,9 +10,9 @@ This project takes a narrative text, breaks it into scenes, enhances each scene 
 
 - ✂️ Text → Scene segmentation (NLTK)
 - 🧠 AI-powered prompt generation (Gemini API)
-- 🎨 Image generation using Stable Diffusion (HuggingFace API)
-- 🖼️ Dynamic storyboard visualization (Flask + HTML/CSS)
-- 🔄 Fallback handling for image failures
+- 🖼️ Image generation using placeholder APIs (Picsum)
+- 🎨 Dynamic storyboard visualization (Flask + HTML/CSS)
+- 🔄 Fallback handling for image loading
 - 🎭 User-selectable visual styles
 
 ---
@@ -22,7 +22,7 @@ This project takes a narrative text, breaks it into scenes, enhances each scene 
 - **Backend:** Flask (Python)
 - **NLP:** NLTK
 - **LLM:** Google Gemini API
-- **Image Generation:** HuggingFace Stable Diffusion API
+- **Image Source:** Picsum (placeholder images)
 - **Frontend:** HTML, CSS (Jinja2 Templates)
 
 ---
